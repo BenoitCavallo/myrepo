@@ -1,0 +1,14 @@
+<div class="add-widget">
+  <button *ngIf="displayChoice === false" (click)="switchDisplayChoice()" class="material-icons add-widget-button">add</button>
+  <div class="add-container" *ngIf="displayChoice">
+    <div class="add-topbar">
+      <div class="add-topbar-closebutton">
+        <button (click)="switchDisplayChoice()" class="material-icons add-topbar-closebutton-content">close</button>
+      </div>
+      <div class="add-topbar-name">
+        Name
+      </div>
+    </div>
+    <div class="add-content"></div>
+  </div>
+</div>

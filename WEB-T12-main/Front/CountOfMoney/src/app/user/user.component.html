@@ -1,0 +1,13 @@
+<div class="user">
+  <span class="user-text">
+    Username
+  </span>
+  <span *ngIf="displayMore === false">
+    <button class="material-icons user-more-button" (click)="switchDisplayMore()">more_horiz</button>
+  </span>
+  <span *ngIf="displayMore === true">
+    <button class="material-icons user-more-button" (click)="switchDisplayMore()">settings</button>
+    <button class="material-icons user-more-button" (click)="switchDisplayMore()">settings</button>
+    <button class="material-icons user-more-button" (click)="switchDisplayMore()">settings</button>
+  </span>
+</div>

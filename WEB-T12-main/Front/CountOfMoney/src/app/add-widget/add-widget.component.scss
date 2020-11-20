@@ -1,0 +1,52 @@
+.add {
+  &-topbar {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    &-closebutton {
+      &-content {
+        margin: 5px;
+        font-size: 15px;
+        background: lightcoral;
+        border: none;
+        border-radius: 10px;
+        margin-right: 15px;
+      }
+    }
+    &-name {
+      margin-top: 3px;
+    }
+  }
+  &-container {
+    height: 300px;
+    width: 300px;
+    background: white;
+    box-shadow: 5px 5px 15px 5px #E0E0E0;
+    border-radius: 20px;
+  }
+  &-widget {
+    height: 300px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    &-button {
+      padding: 20px;
+      font-size: 50px;
+      background: white;
+      border-radius: 999px;
+      border: none;
+      box-shadow: 5px 5px 15px 5px #E0E0E0;
+    }
+  }
+  &-content {
+    border-top: 1px solid #E0E0E0;
+  }
+}

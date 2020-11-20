@@ -1,0 +1,35 @@
+.user {
+  margin-top: 25px;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  padding: 25px;
+  border: 1px solid #E7E8E7;
+  border-radius: 20px;
+  width: 250px;
+  background: white;
+  box-shadow: 5px 5px 15px 5px #E0E0E0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: flex-start;
+  &-text {
+    margin-top: 8px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+  }
+  &-more-button {
+    background: none;
+    border: none;
+    border-radius: 100px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+  }
+  &-more-button:hover {
+  background: #E7E8E7;
+     }
+}

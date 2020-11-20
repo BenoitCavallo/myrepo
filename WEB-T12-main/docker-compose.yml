@@ -1,0 +1,10 @@
+version: "3"
+services:
+  node:
+    image: countofmoneynode
+    build: ./Backend
+    restart: on-failure
+    environment:
+      - NODE_ENV:production
+    ports:
+      - 8080:8080

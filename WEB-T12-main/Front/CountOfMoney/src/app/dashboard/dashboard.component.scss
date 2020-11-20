@@ -1,0 +1,32 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.user-container {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  margin-bottom: 50px;
+}
+.widget {
+  margin-bottom: 50px;
+  &-container {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
+  }
+}
